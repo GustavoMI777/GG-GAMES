@@ -1,0 +1,111 @@
+body {
+    background: black;
+    color: whitesmoke;
+    margin: 0px;
+    font-family: "Chakra Petch", serif;
+    margin-bottom: 20px;
+}
+
+header {
+    border-bottom: solid 2px rgb(52, 54, 148);
+    padding: 20px;
+    font-size: 32px;
+    color:  rgb(52, 54, 148);
+}
+
+.chamada {
+    background: rgb(56, 59, 56);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada div {
+    padding-right: 7%;
+}
+
+.chama-texto {
+    margin-right: 0%;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 7%;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 19px;
+    display: flex;
+    padding-left: 7%;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: hidden; /* Remove a barra de rolagem */
+    gap: 13px;
+    scroll-behavior: smooth; /* Suaviza o movimento */
+    width: 90%; /* Ajuste a largura conforme necessário */
+}
+
+.categoria { 
+    padding-left: 20px;
+    padding-right: 20px;
+    background: black;
+    padding-top: 15px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: solid 2px aqua;
+}
+
+.categoria-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.seta-esquerda, .seta-direita {
+    background-color: rgb(52, 54, 148);
+    color: whitesmoke;
+    border: none;
+    font-size: 28px; /* Tamanho do ícone */
+    padding: 12px;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza o ícone */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.seta-esquerda:hover, .seta-direita:hover {
+    background-color: aqua;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.categoria h2 {
+    color: rgb(52, 54, 148);
+    padding-left: 24px;
+}
